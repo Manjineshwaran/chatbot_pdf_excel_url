@@ -21,11 +21,6 @@ Document chunks are converted to vector embeddings
 When a query is submitted, semantic similarity search finds relevant document chunks
 The language model generates an answer based on the retrieved chunks
 
-## Configuration
-- Adjust chunk_size and chunk_overlap in split_documents() to fine-tune document processing
-- Change the embedding model in create_vector_store()
-- Modify Groq LLM parameters in create_qa_chain()
-
 ## Dependencies
 - gradio
 - python-dotenv
@@ -33,12 +28,6 @@ The language model generates an answer based on the retrieved chunks
 - transformers
 - chromadb
 - groq
-## Limitations
-- Performance depends on the quality and complexity of input PDFs
-- Large documents may require more computational resources
-- Accuracy varies based on the chosen embedding and language models
-- Contributing
-- Contributions are welcome! Please submit pull requests or open issues on the GitHub repository.
 
 ## Acknowledgments
 - LangChain
