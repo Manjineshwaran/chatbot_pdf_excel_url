@@ -1,12 +1,12 @@
 # Multi PDF, excel, URL Question Answering System using LLAMA 3.3 and GROQ Cloud
 ## Overview
-####This is a Python-based PDF Question Answering (QA) system that allows users to upload multiple PDF files and ask questions about their contents. The application uses advanced natural language processing techniques to extract and retrieve relevant information from the uploaded documents.
+#### This is a Python-based PDF Question Answering (QA) system that allows users to upload multiple PDF files and ask questions about their contents. The application uses advanced natural language processing techniques to extract and retrieve relevant information from the uploaded documents.
 #Features
-Multiple PDF file upload
-Document text extraction and chunking
-Vector-based semantic search
-Question answering using state-of-the-art language model
-Gradio-based web interface for easy interaction
+  Multiple PDF, Excel or URL file upload
+  Document text extraction and chunking
+  Vector-based semantic search
+  Question answering using state-of-the-art language model
+  Gradio-based web interface for easy interaction
 
 ## Technologies Used
 Gradio: Web interface creation
