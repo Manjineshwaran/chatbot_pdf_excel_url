@@ -26,8 +26,9 @@ The language model generates an answer based on the retrieved chunks
 - python-dotenv
 - langchain
 - transformers
-- chromadb
+- fiass
 - groq
+- streamlit
 
 ## Acknowledgments
 - LangChain
